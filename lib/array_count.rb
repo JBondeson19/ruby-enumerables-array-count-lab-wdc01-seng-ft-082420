@@ -1,7 +1,7 @@
 def count_strings(array)
   array.count do |strings|
    strings.is_a?(String)
-    
+
   end
 end
 
