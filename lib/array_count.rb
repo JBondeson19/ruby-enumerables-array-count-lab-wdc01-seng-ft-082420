@@ -1,9 +1,8 @@
 def count_strings(array)
   # Return the total number of strings in the provided array using the count enumerable
- if array.count .is_a?(String) do
+ array.count do | "" |
+   ""
    
-
-
 end
 
 def count_empty_strings(array)
